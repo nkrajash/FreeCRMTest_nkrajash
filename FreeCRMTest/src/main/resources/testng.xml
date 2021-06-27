@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Free CRM PRO Application Automation Test Suite">
 	<test thread-count="5" name="Free CRM PRO Tests">
-		<listeners>
+		<listeners><!-- author = Naveen Kumar Rajashekar -->
 			<listener class-name="com.crm.qa.util.ExtentReportListener" />
 		</listeners>
 		<classes>
